@@ -1,0 +1,15 @@
+{
+  "name": "Fake News Detection",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Your Extension Description",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open"
+  },
+  "permissions": [
+    "http://localhost:5000/*",
+    "contextMenus",
+    "tabs"
+  ]
+}
